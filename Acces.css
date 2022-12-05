@@ -1,0 +1,213 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.banner{
+
+    width:100%;
+    background-color: rgba(230, 216, 206);;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.navbar{
+    display: flex;
+    margin:auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(141, 114, 93, 0.727);
+    width: 100%;
+    height: 15vh;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+.navbar h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-left: 20px;
+    color:black;
+    
+}
+
+span{
+    color: white;
+}
+
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px;
+    font-size:large;
+    padding-top: 18%;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffff;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px black;
+    transition: 1s;
+    
+}
+
+.AccesContent{
+    width: 60vw;
+    margin-top: auto;
+    background-color: rgba(230, 216, 206);
+    background-size: cover;
+    padding:10%;
+    font-size: 1.2rem;
+    align-items: center;
+    
+}
+
+.AccesTitle2{
+    font-style:oblique;
+    padding:5%;
+}
+
+.AccesTekst p{
+    padding:1.2%;
+}
+
+#BildeAcces{
+    width: 100%;
+    padding:2%;
+}
+
+.footer{
+    padding-top:2%;
+    display: flex;
+    height: 12%;
+    width: 100%;
+    border: 1px solid;
+    position: absolute;
+    background-color: rgba(141, 114, 93, 0.816);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footerdiv{
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt {
+    width: 33%;
+    text-align: center;
+    font-size: large;
+    color:black ;
+}
+
+.kontakt a{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:1300px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar h1{
+        font-size: 35px;
+    }
+
+    .navbar ul li{
+        margin: 0 10px;
+        padding: 2px;
+        padding-top: 0;
+        font-size: large;
+    }
+    .AccesBilde{
+        width: 60%;
+    }
+    .footerdiv{
+        font-size: medium;  
+    }
+
+    .kontakt{
+        font-size: medium; 
+    }
+
+}
+
+@media(max-width:993px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar h1{
+        font-size: 30px;
+    }
+
+    .navbar ul li{
+        font-size: medium;
+        padding-top: 2%;
+    }
+
+    .AccesBilde{
+        width: 90%;
+    }
+
+    .footerdiv{
+        font-size:small;  
+    }
+
+    .kontakt{
+        font-size:small;
+    }
+}
+
+    @media(max-width:600px) {
+
+
+        .footer{
+            height: 8%;
+        }
+        .footerdiv{
+            font-size:x-small;  
+        }
+
+        .kontakt{
+            font-size:x-small;
+        }
+
+    
+        .AccesBilde{
+            width: 80%;
+        }
+
+    
+    }
+
+    @media(max-width:300px){
+
+        .navbar ul li{
+            
+            font-size: small;
+        }
+
+    }
+    
+
+
+
